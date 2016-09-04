@@ -270,6 +270,9 @@ case $board in
 	zte-q7)
 		set_wifi_led "zte:blue:status"
 		;;
+	wr-150n)
+		ucidef_set_led_default "wps" "WPS" "wr-150n:green:wps" "0"
+		;;
 esac
 
 board_config_flush

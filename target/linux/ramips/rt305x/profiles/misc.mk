@@ -16,3 +16,15 @@ define Profile/A5-V11/Description
 endef
 
 $(eval $(call Profile,A5-V11))
+
+define Profile/WR-150N
+	NAME:=Acorp WR-150N
+	PACKAGES:=\
+		kmod-leds-gpio wpad-mini
+endef
+
+define Profile/WR-150N/Description
+	Package set for Acorp WR-150N
+endef
+
+$(eval $(call Profile,WR-150N))

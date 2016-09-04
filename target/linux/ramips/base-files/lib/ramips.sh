@@ -28,6 +28,9 @@ ramips_board_detect() {
 	*"A5-V11")
 		name="a5-v11"
 		;;
+	*"Acorp WR-150N")
+		name="wr-150n"
+		;;
 	*"Aigale Ai-BR100")
 		name="ai-br100"
 		;;
